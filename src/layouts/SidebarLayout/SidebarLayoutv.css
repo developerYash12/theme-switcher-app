@@ -1,0 +1,79 @@
+.theme2-container {
+    display: flex;
+    font-family: 'Georgia', 'Times New Roman';
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 100vh;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .theme2-sidebar {
+    width: 220px;
+    background-color: #e6e6e6;
+    padding: 40px 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme2-sidebar ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 2;
+  }
+  
+  .theme2-main {
+    flex-grow: 1;
+    padding: 40px;
+  }
+  
+  .theme2-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .theme2-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .theme2-button {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    padding: 10px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    .theme2-container {
+      flex-direction: column;
+      margin-top: 45px;
+    }
+  
+    .theme2-sidebar {
+      width: 100%;
+      padding: 20px;
+      box-shadow: none;
+      border-bottom: 1px solid #ccc;
+      margin-top: 45px;
+
+    }
+  
+    .theme2-main {
+      padding: 20px;
+    }
+  
+    .theme2-heading {
+      font-size: 28px;
+    }
+  
+    .theme2-paragraph {
+      font-size: 16px;
+    }
+  }
+  
