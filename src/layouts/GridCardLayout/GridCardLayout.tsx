@@ -7,9 +7,7 @@ const GridCardLayout: React.FC<{ children?: React.ReactNode }> = () => {
     { id: 2, title: 'Card 2', text: 'This is a sample paragraph in the current theme layout.' },
     { id: 3, title: 'Card 3', text: 'This is a sample paragraph in the current theme layout.' },
     { id: 4, title: 'Card 4', text: 'This is a sample paragraph in the current theme layout.' },
-    
-    
-    
+
   ];
 
   return (

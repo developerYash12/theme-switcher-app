@@ -51,5 +51,5 @@ export type ThemeType = {
   headerColor: string;
   cardBackground: string;
   cardColor: string;
-  sidebarBackground?: string; // optional, only for theme2
+  sidebarBackground?: string; 
 };
